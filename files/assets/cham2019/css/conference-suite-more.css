@@ -1,0 +1,277 @@
+#nomadsuite-messenger-container {
+  background-color: white;
+  min-width: 275px;
+  padding: 0 1em 1em 1em;
+  border-radius: 0.25em;
+  box-shadow: 0 0 5em #000;
+  color: #222;
+  position: fixed;
+  left: -10%;
+  width: 120%;
+  top: 20%;
+  padding-left: 25%;
+}
+
+#nomadsuite-messenger-container .bpformelementmanipulators {
+display: inline;
+list-style-type: none;
+padding: 0em;
+margin: 0.5em;
+text-align: center;
+}
+
+#nomadsuite-messenger-container .bpformelementmanipulators li {
+display: inline;
+vertical-align: bottom;
+}
+
+#nomadsuite-messenger-container .bpformelementmanipulators li img {
+vertical-align: top;
+}
+
+#nomadsuite-messenger-container .bpdataformcaption {
+vertical-align: top;
+}
+#nomadsuite-messenger-container img.loading-animation,
+#nomadit-conference-suite-content img.loading-animation {
+width: 50px;
+height: 50px;
+margin: 1em;
+}
+#nomadsuite-messenger-container .bpform_formoptions li a {
+text-decoration: none;
+padding: 0.25em 0.75em;
+border-radius: 0.25em;
+font-weight: bold;
+white-space: pre;
+background: #547F70;
+color: #BCDBD0 !important;
+}
+#nomadsuite-messenger-container .bpform_formoptions li {
+display: inline;
+padding-left: 0.4em;
+padding-right: 0.4em;
+}
+.conference-suite-viewlinks, .conference-suite-panels-displaytype-links {
+  width: 100%;
+  height: 50px;
+}
+.conference-suite-viewlinks ul,
+.conference-suite-panels-displaytype-links ul {
+font-size: 0.9em;
+text-indent: 0em;
+display: block;
+list-style: none;
+margin-top: 0.2em;
+margin-bottom: 0.2em;
+padding: 0.2em;
+background: none;
+color: #e8f8eb;
+width: auto;
+float: right;
+}
+.conference-suite-viewlinks ul li,
+.conference-suite-panels-displaytype-links ul li {
+  float: left;
+  color: #166908;
+  display: inline;
+  margin: 0em 0.1em;
+  padding: 0.2em;
+  text-indent: 0em;
+}
+.conference-suite-viewlinks ul li:first-child,
+.conference-suite-panels-displaytype-links ul li:first-child {
+  padding-top: 5px;
+}
+.conference-suite-viewlinks ul li a,
+.conference-suite-panels-displaytype-links ul li a {
+  background: #547F70;
+  -webkit-border-radius: 0.33em;
+  -khtml-border-radius: 0.33em;
+  -moz-border-radius: 0.33em;
+  padding: 0.2em 1em;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  top: 19px;
+  display: inline-block;
+  color: #BCDBD0 !important;
+}
+
+.conference-suite-viewlinks ul li a:hover,
+.conference-suite-panels-displaytype-links ul li a:hover {
+  background: #77B39E;
+  color: white !important;
+}
+/*========================*/
+#nomadit_conference_suite_content .nomadsuite_viewlinks li a,
+#nomadit_panels .panels_displaytypelinks li a {
+    font-size: 16px;
+    padding: 5px 10px;
+    top: 19px;
+    display: inline-block;
+}
+#header #form {
+    margin-right: 10px;
+}
+#hornav {
+    margin-top: -4px;
+}
+.gsc-search-button-v2 {
+    padding: 4px 27px !important;
+    margin-top: 0px !important;
+    margin: 0px;
+    margin-right: 6px;
+    background: #547F70 !important;
+    -webkit-border-radius: 0.33em !important;
+    -khtml-border-radius: 0.33em !important;
+    -moz-border-radius: 0.33em !important;
+    color: #BCDBD0 !important;
+    text-decoration: none !important;
+    border-radius: 3px !important;
+    cursor: pointer;
+}
+form.gsc-search-box {
+    margin-top: -1px !important;
+}
+.gsc-control-cse div {
+    position: static;
+    height: 20px;
+    margin-top: 1px;
+}
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: -13px !important;
+    height: 15px !important;
+    font-size: 12px;
+}
+div#hornav ul li a:link, div#hornav ul li a:visited {
+    margin: 0px;
+    margin-right: 6px;
+    background: #547F70;
+    -webkit-border-radius: 0.33em;
+    -khtml-border-radius: 0.33em;
+    -moz-border-radius: 0.33em;
+    color: #BCDBD0;
+    padding: 0.2em 1em;
+    text-decoration: none;
+    border: none;
+}
+div#hornav ul li a:hover, .gsc-search-button-v2:hover {
+    background: #77B39E !important;
+    color: white !important;
+}
+div#footer {
+    font-size: 0.9em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.viewname-heading {
+  font-size: 20px;
+}
+.toast {
+    position: fixed;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 150px;
+    color: #eee;
+    background: rgb(84, 127, 112);
+    border-top: 1px solid #7A72B4;
+    border-bottom: 1px solid #7A72B4;
+    box-shadow: 0 0 30px black;
+    opacity: 1.0;
+    transition: opacity 500ms;
+}
+
+.toast > *:first-child {
+    margin: 0;
+}
+
+.toast p,
+.toast ul {
+    font-size: 15px;
+}
+
+.toast ul {
+    list-style-type: box;
+    margin-left: 20px;
+}
+
+.toast li {
+    margin-bottom: 5px;
+}
+
+.toast input[type="button"] {
+    width: 100px;
+}
+
+/* buttons in toast dialogues that are next to one another will be
+ * spaced */
+.toast input+input {
+    margin-left: 20px;
+}
+
+.toast.appearing,
+.toast.disappearing {
+    opacity: 0.0;
+}
+
+
+
+
+
+
+
+/* _ns ported from conference-suite.css to target differing markup style */
+
+.panels_displaytypelinks,
+.nomadsuite_viewlinks {
+    width: 100%;
+    height: 50px;
+}
+#nomadit_conference_suite_content .panels_displaytypelinks ul,
+#nomadit_conference_suite_content .nomadsuite_viewlinks ul{
+    font-size: 0.9em;
+    text-indent: 0em;
+    display: block;
+    list-style: none;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    padding: 0.2em;
+    background: none;
+    color: #e8f8eb;
+    width: auto;
+    float: right;
+}
+#nomadit_conference_suite_content .panels_displaytypelinks ul li,
+#nomadit_conference_suite_content .nomadsuite_viewlinks ul li{
+    float: left;
+    color: #166908;
+    display: inline;
+    margin: 0em 0.1em;
+    padding: 0.2em;
+    text-indent: 0em;
+}
+#nomadit_conference_suite_content .panels_displaytypelinks ul li a,
+#nomadit_conference_suite_content .nomadsuite_viewlinks ul li a{
+    background: #547F70;
+    -webkit-border-radius: 0.33em;
+    -khtml-border-radius: 0.33em;
+    -moz-border-radius: 0.33em;
+    padding: 0.2em 1em;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    top: 19px;
+    display: inline-block;
+    color: #BCDBD0 !important;
+}
+
+
+

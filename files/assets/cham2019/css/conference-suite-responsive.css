@@ -1,0 +1,353 @@
+
+/* responsive - narrow screen */
+@media (max-width: 767px) {
+	#nomadit-conference-suite-content,
+	#nomadit-conference-suite-content #conference-suite-panels,
+	#nomadit-conference-suite-content #conference-suite-authors,
+	#nomadit-conference-suite-content #conference-suite-convenors,
+	#nomadit-conference-suite-content #conference-suite-registration,
+	#nomadit-conference-suite-content #conference-suite-panelproposal,
+	#nomadit-conference-suite-content #conference-suite-paperproposal {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks ul,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links ul,
+	#nomadit-conference-suite-content .conference-suite-viewlinks ul {
+		text-align: left;
+		border-radius: 0.4em;
+		background: #ee2222;
+		color:  white;
+		width:200px;
+		padding: 5px;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks ul:before,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links ul:before,
+	#nomadit-conference-suite-content .conference-suite-viewlinks ul:before {
+		font-family: 'Glyphicons Halflings', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 1.8;
+		content: "\e236  Views";
+		vertical-align: middle;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		opacity: 0.5;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks ul:before {
+		content: "\e236  Dates";
+	}
+
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links ul:before {
+		content: "\e236  Display as";
+	}
+
+	#nomadit-conference-suite-content .conference-suite-viewlinks ul:before {
+		content: "\e236  Views";
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks ul:hover {
+		height: initial;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links ul:hover {
+		height: auto;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-viewlinks ul:hover {
+		overflow-x: hidden;
+		overflow-y: auto;
+		height: auto;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks ul li,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links ul li,
+	#nomadit-conference-suite-content .conference-suite-viewlinks ul li {
+		display: none;
+		opacity: 0;
+		transition: opacity 300ms;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-viewlinks li:after,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links li:after,
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks li:after {
+		content: "";
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks ul:hover li,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links ul:hover li,
+	#nomadit-conference-suite-content .conference-suite-viewlinks ul:hover li {
+		display: block;
+		opacity: 1.0;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks ul:hover li:first-child,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links ul:hover li:first-child,
+	#nomadit-conference-suite-content .conference-suite-viewlinks ul:hover li:first-child {
+		display: none;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks ul li a,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links ul li a,
+	#nomadit-conference-suite-content .conference-suite-viewlinks ul li a {
+		color: inherit;
+		display: block;
+		margin: 0px;
+		border: none;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks ul li a:hover,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links ul li a:hover,
+	#nomadit-conference-suite-content .conference-suite-viewlinks ul li a:hover {
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	#nomadit-conference-suite-content .conferencesuite-quick-search input:hover {
+		width: 7em;
+	}
+
+	#nomadit-conference-suite-content .conferencesuite-quick-search input:focus {
+		width: 15em;
+	}
+
+	#nomadit-conference-suite-content div.bpformcolumn {
+		float: none;
+	}
+
+	#nomadit-conference-suite-content .bpdataformcaption label {
+		margin: 10px 0 0 0;
+	}
+
+	#nomadit-conference-suite-content .bpStaticFormElement {
+		white-space: normal;
+		max-width: 200px;
+	}
+	
+	.bpdataformcaption,
+	.bpdataformelement {
+		display: block;
+	}
+}
+
+/* responsive - mobile device */
+@media (max-width: 455px) {
+	#nomadit-conference-suite-content {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+		font-size: 12px;
+	}
+
+	#nomadit-conference-suite-content h1 {
+		font-size: 18px;
+	}
+
+	#nomadit-conference-suite-content h2 {
+		font-size: 15px;
+	}
+
+	#nomadit-conference-suite-content h3 {
+		font-size: 12px;
+	}
+
+	#nomadit-conference-suite-content form {
+		margin-left: 1em;
+		margin-right: 1em;
+		padding-left: 0;
+		padding-right: 0;
+		border: none;
+	}
+
+	#nomadit-conference-suite-content table.bpform {
+		width: 100%;
+	}
+
+	#nomadit-conference-suite-content .bpform_statusarea_container {
+		background: #333;
+		border: 1px solid #333;
+		color: #eee;
+		width: 90%;
+		position: fixed;
+		bottom: 5px;
+		left: 0;
+		z-index: 10000;
+	}
+
+	#nomadit-conference-suite-content ul.bpform_formoptions {
+		display: block;
+		margin: 10px 0px;
+		padding: 1px;
+		text-align: center;
+		width: 100%;
+	}
+
+	#nomadit-conference-suite-content ul.bpform_formoptions li {
+		display: block;
+		height: auto;
+		margin: 5px 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#nomadit-conference-suite-content ul.bpform_formoptions li a {
+		display: inline;
+		margin: 0;
+		padding: 5px 0px;
+		display: block;
+		width: 100%;
+	}
+
+	#nomadit-conference-suite-content form td {
+		display: block;
+	}
+
+	#nomadit-conference-suite-content .bpStaticFormElement {
+		max-width: 100%;
+	}
+
+	#nomadit-conference-suite-content input#Panel___Chair,
+	#nomadit-conference-suite-content input#Panel___Discussant,
+	#nomadit-conference-suite-content input[type="text"],
+	#nomadit-conference-suite-content input[type="number"],
+	#nomadit-conference-suite-content input[type="date"],
+	#nomadit-conference-suite-content textarea,
+	#nomadit-conference-suite-content select,
+	#nomadit-conference-suite-content .bpcheckablelistbox {
+		width: 100%;
+	}
+
+	#nomadit-conference-suite-content #conference-suite-convenors-list-table td,
+	#nomadit-conference-suite-content #conference-suite-authors-list-table td,
+	#nomadit-conference-suite-content .timetable_list_datetable td {
+		vertical-align: top;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links,
+	#nomadit-conference-suite-content .conference-suite-viewlinks {
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 0em;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks ul,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links ul,
+	#nomadit-conference-suite-content .conference-suite-viewlinks ul {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#nomadit-conference-suite-content .conferencesuite-quick-search {
+		margin-top: 2em;
+		text-align: center;
+	}
+
+	#nomadit-conference-suite-content .conferencesuite-quick-search input {
+		width: 7em;
+	}
+
+	#nomadsuite-messenger-container {
+		top: 0;
+		left: 0;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+	#conference-suite-panels .viewname-heading {
+		font-size: 14px;
+	}
+
+	#conference-suite-panels .streams_list,
+	#conference-suite-panels .panels_list {
+		margin-left: 0em;
+		margin-bottom: 0em;
+	}
+
+	#conference-suite-panels .streams_list ul,
+	#conference-suite-panels .panels_list ul {
+	padding-left: 0em;
+	}
+
+	#conference-suite-panels .panel-location,
+	#conference-suite-panels .panel-date-time,
+	#conference-suite-panels .panel-sessions {
+		text-align: left;
+		vertical-align: top;
+		font-weight: bold;
+	}
+
+	#conference-suite-panels span.field-name {
+		display: none;
+	}
+
+	#conference-suite-panels .bplibrary_bptreeviewnode,
+	#conference-suite-panels .bplibrary_bptreeviewnode_children,
+	#conference-suite-panels #conference-suite-panels-tree,
+	#conference-suite-panels .panels-paper-container {
+		margin: 0;
+		margin-bottom: 1em;
+		padding: 0;
+		border-bottom: none;
+	}
+
+	#conference-suite-panels .bplibrary_bptreeviewnode_title {
+		background: #f4f4f4;
+		border-top: 1px solid #d4d4d4;
+		padding: 1px;
+	}
+
+	#conference-suite-panels .bplibrary_bptreeviewnode_children .bplibrary_bptreeviewnode_title {
+		background: transparent;
+		border-top: 1px solid #e0e0e0;
+	}
+
+	#conference-suite-panels .bplibrary_bptreeviewnode_children {
+		margin-left: 1em;
+		padding: 1em;
+		padding-top: 0;
+		border: none;
+		background: transparent;
+		transition: background 200ms ease-in-out;
+	}
+
+	#nomadsuite-messenger-container input,
+	#nomadsuite-messenger-container textarea {
+		width: 250px;
+	}
+
+	#nomadsuite-messenger-container textarea {
+		height: 4em;
+		transition: height 200ms ease-in-out;
+	}
+
+	#nomadsuite-messenger-container textarea:focus {
+		height: 10em;
+	}
+
+	#nomadsuite-messenger-container input#Captcha {
+		width: 7em;
+	}
+
+	#nomadsuite-messenger-container ul img {
+		transition: height 200ms ease-in-out,width 200ms ease-in-out;
+		display: inline-block;
+		height: 3em;
+		margin: 0;
+		padding: 0;
+	}
+
+	.bpformelementgroup td {
+		display: inline-block;
+	}
+}

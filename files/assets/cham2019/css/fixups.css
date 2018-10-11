@@ -1,0 +1,31 @@
+
+/* _ns increase width for content */
+.middle {
+    max-width: inherit;
+}
+
+/* _ns when right moves below(@700px), allow main to be fullsize */
+@media (max-width: 700px) {
+    #main.has-right {
+        width: 98%;
+    }
+}
+
+
+/* _ns menu items - dont wrap text */
+#main-menu > li > ul > li > a{
+    white-space: nowrap;
+}
+
+/* _ns navbar shouldnt be clickabe when hidden*/
+@media (min-width: 1101px){
+    nav #navbar ul li.dropdown{
+        display:none;
+    }
+}
+
+/* _ns nav elements left aligned */
+#nav > ul {
+    /*text-align: left;*/
+}
+

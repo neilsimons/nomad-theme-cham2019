@@ -1,0 +1,8 @@
+{
+  "description" : "shared theme component for other nomad themes - master stored on github",
+  "name": "nomadit/nomad-theme-cham2019",
+  "require": {
+    "nomadit/nomad-theme-shared01" : "dev-master",
+    "nomadit/nomad" : "dev-master"
+  }
+}

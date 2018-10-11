@@ -1,0 +1,787 @@
+#nomadit-conference-suite-content {
+	min-height: 400px;
+}
+
+#right {
+	display: none;
+}
+
+@media screen {
+	/* colours are specified as both rgb()/# and rgba() values in lots
+	 * of cases so that CSS3 can be used if supported while retaining
+	 * valid colours for CSS2-only user agents */
+	#nomadit-conference-suite-content {
+    }
+
+	#nomadit-conference-suite-content h2 {
+		font-size: 20px;
+	}
+
+	#nomadit-conference-suite-content p {
+		margin-right: 0;
+		margin-left: 0;
+    }
+
+	#nomadit-conference-suite-content form {
+		font-size: 95%;
+		margin-left: 0em;
+		margin-right: 0em;
+		padding: 1em;
+	}
+
+	#Paper___PanelID_text {
+		font-weight: bold;
+	}
+
+	#nomadsuite-messenger-container .bpStaticFormElement,
+	#nomadit-conference-suite-content .bpStaticFormElement {
+		font-size: 95%;
+		font-style: normal;
+		padding-top: 10px;
+		margin-bottom: 2px;
+	}
+
+	#nomadit-conference-suite-content form label {
+		font-size: 95%;
+		white-space: nowrap;
+		text-align: left;
+		cursor: pointer;
+	}
+
+	#nomadit-conference-suite-content form .bpformelementgroup .bpdataformcaption {
+		width: initial;
+	}
+
+	#nomadit-conference-suite-content p.bpStaticFormElement,
+	#nomadit-conference-suite-content form .bpformelementgroup .bpdataformcaption label {
+		vertical-align: top;
+		padding-left: 10px;
+		padding-right: 10px;
+		line-height: 1em;
+	}
+
+	#nomadit-conference-suite-content form .bpformelementgroup .bpdataformcaption label {
+		margin: 4px;
+	}
+
+	#nomadit-conference-suite-content form .bpformelementgroup .bpdataformcaption .bpcheckablelistbox label {
+		margin-top: 0;
+	}
+
+	#nomadit-conference-suite-content form hr {
+		border-style: solid;
+	}
+
+	#nomadit-conference-suite-content .bpcheckablelistbox,
+	#nomadsuite-messenger-container input,
+	#nomadsuite-messenger-container textarea,
+	#nomadit-conference-suite-content input,
+	#nomadit-conference-suite-content textarea,
+	#nomadit-conference-suite-content select {
+		border: 1px solid #ccc;
+		font-size: 100%;
+		padding: 0.3em;
+		font-weight: bold;
+		background: inherit;
+	}
+
+	#nomadit-conference-suite-content input:disabled,
+	#nomadit-conference-suite-content textarea:disabled,
+	#nomadit-conference-suite-content select:disabled {
+		opacity: 0.5;
+		background: #ccc;
+	}
+
+	#nomadit-conference-suite-content input#Panel___Chair,
+	#nomadit-conference-suite-content input#Panel___Discussant {
+		width: 150px;
+	}
+
+	#nomadsuite-messenger-container textarea {
+		font-size: 10pt;
+	}
+
+	textarea#Delegate___OtherSpecialRequirement,
+	textarea#Panel___ShortAbstract,
+	textarea#Panel___Description,
+	textarea#Paper___ShortAbstract,
+	textarea#Paper___Abstract {
+		/* on IE9 70 cols appears to be too wide and the main content is shuffled
+		 * down a long way to fit it into the page container, so we fix the
+		 * width here */
+		width: 400px;
+	}
+	
+
+	textarea#Paper___AVOtherRequirements {
+		width: 250px;
+	}
+
+	input#Paper___Title,
+	input#Panel___Title {
+		width: 450px;
+	}
+
+	#nomadsuite-messenger-container input[type=text]:focus,
+	#nomadsuite-messenger-container textarea:focus,
+	#nomadit-conference-suite-content input[type=text]:focus,
+	#nomadit-conference-suite-content textarea:focus,
+	#nomadit-conference-suite-content .conferencesuite-quick-search:hover {
+		background-color: #f0f3f5;
+	}
+
+	input#Panel___Title,
+	input#Paper___Title {
+		font-size: 120%;
+		font-weight: bold;
+	}
+
+	/* timetable page list view */
+	#timetable-list {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	#timetable-list h3 {
+		margin-top: 2em;
+	}
+
+	#timetable-list .conference-suite-timetable-list-datetable,
+	#conference-suite-authors-list-table,
+	#conference-suite-convenors-list-table {
+		margin-left: 5%;
+		margin-right: 5%;
+		border-collapse: collapse;
+		border: none;
+		width: 90%;
+	}
+
+	#timetable-list .conference-suite-timetable-list-datetable tr:first-child,
+	#conference-suite-authors-list-table tr:first-child,
+	#conference-suite-convenors-list-table tr:first-child {
+		background-color: transparent;
+	}
+
+	#timetable-list .conference-suite-timetable-list-datetable tr,
+	#conference-suite-authors-list-table tr,
+	#conference-suite-convenors-list-table tr {
+	}
+
+	#timetable-list .conference-suite-timetable-list-datetable,
+	#conference-suite-authors-list-table,
+	#conference-suite-convenors-list-table {
+		font-size: 95%;
+		text-align: left;
+	}
+
+	#timetable-list .conference-suite-timetable-list-datetable thead,
+	#conference-suite-authors-list-table thead,
+	#conference-suite-convenors-list-table thead {
+		font-weight: bold;
+	}
+
+	#timetable-list .conference-suite-timetable-list-datetable td,
+	#conference-suite-authors-list-table td,
+	#conference-suite-convenors-list-table td,
+	#timetable-list .conference-suite-timetable-list-datetable th,
+	#conference-suite-authors-list-table th,
+	#conference-suite-convenors-list-table th {
+		padding: 0.3em;
+	}
+
+	#timetable-list .conference-suite-timetable-list-datetable td,
+	#conference-suite-authors-list-table td,
+	#conference-suite-convenors-list-table td {
+		font-weight: normal;
+	}
+
+	/* for the panel pages */
+	#conference-suite-panels,
+	#conference-suite-authors,
+	#conference-suite-convenors,
+	#conference-suite-timetable {
+		font-size: 95%;
+	}
+
+	#conference-suite-panels .streams_list,
+	#conference-suite-panels .panels_list {
+		display: block;
+		list-style: none;
+		margin-left: 2em;
+		margin-bottom: 2em;
+	}
+
+	#conference-suite-panels .streams_list li,
+	#conference-suite-panels .panels_list li {
+		display: block;
+		margin-bottom: 1em;
+		text-indent: 0em;
+	}
+
+	#conference-suite-panels .panel-ref {
+		float: right;
+		clear: right;
+		font-weight: bold;
+	}
+
+	#conference-suite-panels .viewname-heading,
+	#conference-suite-panels .panel-title {
+		margin-left: 0em;
+		font-weight: bold;
+		font-size: 130%;
+	}
+
+	#conference-suite-panels .panel-title {
+		font-size: 140%;
+	}
+	
+	#conference-suite-panels h4 {
+		margin-left: 0em;
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+
+	#conference-suite-panels .field-name {
+		font-weight: bold;
+	}
+	
+	#conference-suite-panels .panel-location,
+	#conference-suite-panels .panel-date-time,
+	#conference-suite-panels .panel-sessions {
+		float: right;
+		clear: right;
+		text-align: right;
+		vertical-align: top;
+	}
+
+	#conference-suite-panels .panels-paper-container {
+		padding-left: 2em;
+		border-bottom: 0.1em solid #999;
+	}
+
+	#conference-suite-panels .panels-paper-container:last-child {
+		border-bottom: none;
+	}
+
+	#conference-suite-panels .panel-convenors,
+	#conference-suite-panels .panel-shortabstract,
+	#conference-suite-panels .panel-longabstract,
+	#conference-suite-panels .panel-chair,
+	#conference-suite-panels .panel-discussant,	
+	#conference-suite-panels .paper-shortabstract,
+	#conference-suite-panels .paper-longabstract {
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+
+	#conference-suite-panels .panel-convenors h4,
+	#conference-suite-panels .panel-shortabstract h4,
+	#conference-suite-panels .panel-longabstract h4 {
+		margin-left: -2em;
+	}
+
+	#conference-suite-panels .panel-convenors ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	#conference-suite-panels .panel-convenors ul li {
+		margin: 0;
+	}
+
+	#conference-suite-panels .panel-convenors p {
+		margin-top: 0;
+	}
+
+	#conference-suite-panels .panel-convenors .panel-convenor-email {
+		cursor: pointer;
+	}
+
+	#conference-suite-panels .panel-chair .field-name,
+	#conference-suite-panels .panel-discussant .field-name {
+		font-weight: normal;
+		font-style: italic;
+	}
+
+	#conference-suite-panels .panel-chair .field-name:after,
+	#conference-suite-panels .panel-discussant .field-name:after {
+		content: ": ";
+	}
+
+	#conference-suite-panels .paper-title {
+		margin-left: 0em;
+		margin-top: 1em;
+		font-weight: bold;
+		font-size: 140%;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-viewlinks,
+	#conference-suite-panels .conference-suite-panels-displaytype-links {
+		text-align: right;
+		margin-bottom: 1.3em;
+	}
+
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks {
+		text-align: center;
+	}
+
+	#conference-suite-panels .papers_epaper_indicator,
+	#conference-suite-panels .epaper_indicator {
+		font-weight: bold;
+		font-size: 0.8em;
+		color: blue;
+		padding: 0.3em;
+	}
+
+	#nomadit-conference-suite-content .conferencesuite-quick-search {
+		text-align: right;
+		display: block;
+		float: right;
+		clear: right;
+		margin: 0em 1em;
+		background-color: white;
+		padding: 0em;
+		border: 1px solid #ccc;
+		background: inherit;
+		border-top-left-radius: 1em;
+		border-bottom-left-radius: 1em;
+	}
+
+	#nomadit-conference-suite-content form.conferencesuite-quick-search img {
+		margin: 0.2em;
+		vertical-align: top;
+	}
+
+	#nomadit-conference-suite-content .conferencesuite-quick-search input {
+		border: none;
+		width: 10em;
+		padding: 0em;
+		margin: 0em;
+		vertical-align: middle;
+		background: transparent;
+	}
+
+	#nomadit-conference-suite-content .conferencesuite-quick-search input:focus {
+		outline: none;
+	}
+
+	#nomadit-conference-suite-content .conferencesuite-quick-search input:valid {
+		border-left: none;
+	}
+
+	#nomadsuite-messenger-container {
+		display: none;
+		background-color: white;
+		min-width: 275px;
+		padding: 0 1em 1em 1em;
+		border-radius: 0.25em;
+		box-shadow: 0 0 5em #000;
+		color: #222;
+		position: fixed;
+		left: -10%;
+		width: 120%;
+		top: 20%;
+		padding-left: 25%;
+	}
+
+	#nomadit-conference-suite-content td.bpformcolumn {
+		vertical-align: top;
+		padding-right: 1em;
+		max-width: 40em;
+	}
+
+	#nomadit-conference-suite-content .bpformelementgroup td,
+	#nomadit-conference-suite-content .bpformelementgroup tr,
+	#nomadit_conference_suite_container .bpformelementgroup,
+	#nomadit-conference-suite-content .bpformelementgroup td {
+		padding: 0px;
+	}
+
+	#nomadsuite-messenger-container .bpformelementmanipulators {
+		display: inline;
+		list-style-type: none;
+		padding: 0em;
+		margin: 0.5em;
+		text-align: center;
+	}
+
+	#nomadsuite-messenger-container .bpformelementmanipulators li {
+		display: inline;
+		vertical-align: bottom;
+	}
+	
+	#nomadsuite-messenger-container .bpformelementmanipulators li img {
+		vertical-align: top;
+	}
+	
+	#nomadsuite-messenger-container .bpdataformcaption {
+		vertical-align: top;
+	}
+
+	}
+
+	#nomadsuite_messenger_sendingmessage {
+		border: 0.2em solid #33c;
+		background-color: #f0f4f8;
+		padding: 1em;
+	}
+
+	#nomadsuite-messenger-container img.loading-animation,
+	#nomadit-conference-suite-content img.loading-animation {
+		width: 50px;
+		height: 50px;
+		margin: 1em;
+	}
+
+	/*
+	 * bpLibrary styles
+	 */
+	/* bpForm generic stuff */
+	#nomadsuite-messenger-container .bpdataformcaption,
+	#nomadsuite-messenger-container .bpdataformelement,
+	#nomadit-conference-suite-content .bpdataformcaption,
+	#nomadit-conference-suite-content .bpdataformelement {
+		vertical-align: top;
+	}
+
+	#nomadsuite-messenger-container .bpdataformcaption,
+	#nomadit-conference-suite-content .bpdataformcaption {
+		padding-top: 0.6em;
+		width: 150px;
+	}
+
+	#nomadit-conference-suite-content .bpform_statusarea_container {
+		min-height: 3.75em;
+		margin: 1em 2em;
+		color: #65655f;
+		font-weight: bold;
+		font-size: 0.95em;
+		border: 1px solid #bbb;
+		border-radius: 2px;
+	}
+
+	#nomadit-conference-suite-content .bpform_statusarea_container img {
+		padding: 1em;
+		border-top-left-radius: 0.5em;
+		border-bottom-left-radius: 0.5em;
+	}
+
+	#nomadit-conference-suite-content .bpform_statusarea {
+		font-weight: bold;
+		padding: 0.2em;
+	}
+
+	/* bpCalendarEdit */
+	#nomadit-conference-suite-content .bpcalendar {
+		background-color: #ca524a;
+		min-width: 320px;
+		padding: 1em;
+		border-radius: 0.5em;
+		box-shadow: 0 0 3em #000;
+	}
+
+	#nomadit-conference-suite-content .bpcalendar table {
+		background-color: inherit;
+ 		color: #333;
+		margin-top: 1em;
+		border-collapse: collapse;
+	}
+
+	#nomadit-conference-suite-content .bplibrary_bpdateedit_calendar_title {
+		background-color: #a7a9b3;
+		border-bottom: 0.25em solid rgba(32, 32, 32, 0.2);
+	}
+
+	#nomadit-conference-suite-content .bpcalendar td {
+		padding: 2px 5px;
+		font-size: 12px;
+		transition: transform 50ms linear;
+	}
+
+	#nomadit-conference-suite-content .bpcalendar select{
+		margin-left: 1px;
+		margin-right: 1px;
+	}
+
+	#nomadit-conference-suite-content .bpcalendar td:hover {
+		background-color: #c19f46;
+		color: white;
+		cursor: pointer;
+	}
+
+	/* bpCheckableListBox colours */
+	#nomadit-conference-suite-content .bpcheckablelistbox li {
+		margin: 0;
+		padding: 5px;
+		height: 25px;
+	}
+
+	#nomadit-conference-suite-content .bpcheckablelistbox li label input[type="checkbox"] {
+		height: 20px;
+		width: 20px;
+		margin-left: 5px;
+		vertical-align: middle;
+	}
+
+	#nomadit-conference-suite-content .bpcheckablelistbox li:hover {
+		background: rgba(193, 159, 70, 0.5);
+	}
+
+	#nomadit-conference-suite-content .bpcheckablelistbox li.selected,
+	#nomadit-conference-suite-content .bpcheckablelistbox li.selected:hover {
+		background: #ca524a;
+		color: white;
+	}
+
+	/* form element manipulators */
+	#nomadit-conference-suite-content .bpformelementmanipulators {
+		display: inline;
+		list-style: none;
+		vertical-align: top;
+	}
+
+	#nomadit-conference-suite-content .bpformelementmanipulators li {
+		display: inline;
+		vertical-align: top;
+	}
+
+	#nomadit-conference-suite-content .bpformelementmanipulators li img {
+		vertical-align: top;
+	}
+
+	/* tree views */
+	#nomadit-conference-suite-content .bplibrary_bptreeview {
+		margin: 0.5em;
+	}
+
+	#nomadit-conference-suite-content .bplibrary_bptreeviewnode {
+		padding-left: 1em;
+		margin: 0.3em;
+	}
+
+	#nomadit-conference-suite-content .bplibrary_bptreeviewnode_title {
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+
+	#nomadit-conference-suite-content .bplibrary_bptreeviewnode_children {
+		margin: 1em 1em 1em 1.5em;
+		padding: 0.1em 1em 1em 1em;
+		border: 0.1em solid #ddd;
+	}
+
+	/* dialogues */
+	.bpdialogue_message,
+	.bpdialogue_warning,
+	.bpdialogue_error {
+		margin: 2em;
+		color: #333;
+		border: 1px solid #333;
+		padding: 0.5em;
+		border-radius: 0.5em;
+		background: #f8f8f8;
+	}
+
+	.bpdialogue_warning {
+		color: #662;
+		border-color: #993;
+		background: #ee9;
+	}
+
+	.bpdialogue_error {
+		color: #622;
+		border-color: #933;
+		background: #fdd;
+	}
+
+	.bpdialogue_message img,
+	.bpdialogue_warning img,
+	.bpdialogue_error img {
+		vertical-align: baseline;
+	}
+
+	#nomadit-conference-suite-content .bpmenu ul,
+	#nomadsuite-messenger-container .bpmenu ul,
+	.bpdialogue_message ul,
+	.bpdialogue_warning ul,
+	.bpdialogue_error ul,
+	#nomadit-conference-suite-content .end_process_menu ul,
+	#nomadit-conference-suite-content .conference-suite-viewlinks ul,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links ul,
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks ul,
+	#nomadit-conference-suite-content .bpform_formoptions ul,
+	#nomadit-conference-suite-content ul.bpform_formoptions,
+	#nomadsuite-messenger-container .bpform_formoptions ul,
+	#nomadsuite-messenger-container ul.bpform_formoptions {
+		padding-left: 0em;
+		display: block;
+		list-style: none;
+		margin: 1em 0.5em;
+		text-align: right;
+	}
+
+	.bpdialogue_message ul,
+	.bpdialogue_warning ul,
+	.bpdialogue_error ul {
+		text-align: left;
+	}
+
+	.bpdialogue_message li,
+	.bpdialogue_warning li,
+	.bpdialogue_error li {
+		margin-top: 10px;
+	}
+
+	#nomadit-conference-suite-content .dialogue-options li,
+	#nomadit-conference-suite-content .bpmenu li,
+	#nomadsuite-messenger-container .bpmenu li,
+	#nomadit-conference-suite-content .end_process_menu li,
+	#nomadit-conference-suite-content .conference-suite-viewlinks li,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links li,
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks li,
+	#nomadit-conference-suite-content .bpform_formoptions li,
+	#nomadsuite-messenger-container .bpform_formoptions li {
+		display: inline;
+		padding-left: 0.4em;
+		padding-right: 0.4em;
+	}
+
+	#nomadit-conference-suite-content .pushbutton,
+	#nomadit-conference-suite-content .proposal-link,
+	#nomadit-conference-suite-content .bpmenu li a,
+	#nomadsuite-messenger-container .bpmenu li a,
+	#nomadit-conference-suite-content form a,
+	.bpdialogue_message li a,
+	.bpdialogue_warning li a,
+	.bpdialogue_error li a,
+	#nomadit-conference-suite-content .end_process_menu li a,
+	#nomadit-conference-suite-content .conference-suite-viewlinks li a,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links li a,
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks li a,
+	#nomadsuite-messenger-container .bpform_formoptions li a {
+		text-decoration: none;
+		background-color: #ee2222;
+		color: white;
+		padding: 0.25em 0.75em;
+		border-radius: 0.25em;
+		font-weight: bold;
+		white-space: pre;
+	}
+
+	#nomadit-conference-suite-content .pushbutton:hover,
+	#nomadit-conference-suite-content .bpmenu li a:hover,
+	#nomadsuite-messenger-container .bpmenu li a:hover,
+	#nomadit-conference-suite-content form a:hover,
+	.bpdialogue_message li a:hover,
+	.bpdialogue_warning li a:hover,
+	.bpdialogue_error li a:hover,
+	#nomadit-conference-suite-content .end_process_menu li a:hover,
+	#nomadit-conference-suite-content .conference-suite-viewlinks li a:hover,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links li a:hover,
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks li a:hover,
+	#nomadsuite-messenger-container .bpform_formoptions li a:hover,
+	#nomadit-conference-suite-content form a:focus,
+	#nomadit-conference-suite-content .bpmenu li a:focus,
+	#nomadsuite-messenger-container .bpmenu li a:focus,
+	.bpdialogue_message li a:focus,
+	.bpdialogue_warning li a:focus,
+	.bpdialogue_error li a:focus,
+	#nomadit-conference-suite-content .end_process_menu li a:focus,
+	#nomadit-conference-suite-content .conference-suite-viewlinks li a:focus,
+	#nomadit-conference-suite-content .conference-suite-panels-displaytype-links li a:focus,
+	#nomadit-conference-suite-content .conference-suite-timetable-datelinks li a:focus,
+	#nomadsuite-messenger-container .bpform_formoptions li a:focus {
+		color: #ee2222;
+		background-color: #eee;
+ }
+
+	#nomadit-conference-suite-content #Paper-Title-CharCount_text,
+	#nomadit-conference-suite-content #Paper-ShortAbstract-CharCount_text,
+	#nomadit-conference-suite-content #Paper-Abstract-WordCount_text,
+	#nomadit-conference-suite-content #Panel-Title-CharCount_text,
+	#nomadit-conference-suite-content #Panel-ShortAbstract-CharCount_text,
+	#nomadit-conference-suite-content #Panel-Description-WordCount_text {
+		margin-bottom: 2em;
+		padding-top: 0px;
+	}
+
+	.toast {
+		position: fixed;
+		top: 25%;
+		left: -10%;
+		width: 120%;
+		z-index: 1000;
+		overflow: hidden;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 30px 350px;
+		color: #eee;
+		background: rgba(142, 20, 20, 0.95);
+		border-top: 1px solid #b47272;
+		border-bottom: 1px solid #b47272;
+		box-shadow: 0 0 20px #444;
+		opacity: 1.0;
+		transition: opacity 500ms;
+	}
+
+	.toast > *:first-child {
+		margin: 0;
+	}
+
+	.toast p,
+	.toast ul {
+		font-size: 15px;
+	}
+
+	.toast ul {
+		list-style-type: box;
+		margin-left: 20px;
+	}
+
+	.toast li {
+		margin-bottom: 5px;
+	}
+
+	.toast input {
+		color: #444;
+	}
+
+	.toast input[type="button"] {
+		width: 100px;
+	}
+
+	/* buttons in toast dialogues that are next to one another will be
+	 * spaced */
+	.toast input+input {
+		margin-left: 20px;
+	}
+
+	.toast.appearing,
+	.toast.disappearing {
+		opacity: 0.0;
+	}
+
+	/* set visual hints about validity/required state of form elements */
+	#nomadit-conference-suite-content textarea[required],
+	#nomadit-conference-suite-content select[required],
+	#nomadit-conference-suite-content input[required],
+	#nomadit-conference-suite-content textarea:required,
+	#nomadit-conference-suite-content select:required,
+	#nomadit-conference-suite-content input:required {
+		border-left: 4px solid #545454;		
+	}
+
+	#nomadit-conference-suite-content textarea:valid,
+	#nomadit-conference-suite-content select:valid,
+	#nomadit-conference-suite-content input:valid {
+		border-left: 4px solid #8b8;		
+	}
+
+	#nomadit-conference-suite-content textarea:invalid,
+	#nomadit-conference-suite-content select:invalid,
+	#nomadit-conference-suite-content input:invalid {
+		border-left: 4px solid #b88;
+	}
+
+
